@@ -47,7 +47,7 @@
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo2.png" width="80" height="80">
       </a>
-
+      <button class="menu-toggle">☰</button>
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
@@ -87,28 +87,74 @@
 
       <div class="container">
 
-        <div class="row gy-4">
+        <div class="row gy-4 justify-content-center">
 
-          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore
-              magna aliqua.
+          <div class="col-lg-8 content" data-aos="fade-up" data-aos-delay="100" style="text-align: center;">
+            <h3>Tabela de Preços</h3>
+            <table style="width: 100%; margin: 0 auto; border-collapse: collapse; text-align: left;">
+              <tbody>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Aplicação de fibra de vidro</td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 170,00</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Manutenção de fibra de vidro</td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 100,00</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Aplicação de molde russo</td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 150,00</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Manutenção do molde russo</td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 90,00</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Blindagem</td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 135,00</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Manutenção de blindagem (até 30 dias)
+                  </td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 70,00</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Esmaltação tradicional</td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 10,00+</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Esmaltação em gel</td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 20,00+</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Encapsulada</td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 30,00+</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Baby Boomer</td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 10,00+</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Remoção</td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 35,00</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Troca de formato</td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 10,00</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Unhas quebradas na manutenção</td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 10,00</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px dotted #ccc;">Unhas quebradas fora da manutenção</td>
+                  <td style="text-align: right; border-bottom: 1px dotted #ccc;">R$ 15,00</td>
+                </tr>
+              </tbody>
+            </table>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+              <strong>Obs:</strong> 4 unhas quebradas ou mais será feita uma nova colocação.
             </p>
-            <ul>
-              <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate
-                  velit.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo</span></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-
           </div>
 
         </div>
@@ -116,6 +162,7 @@
       </div>
 
     </section><!-- /About Section -->
+
 
     <!-- Features Section -->
     <section id="features" class="features section">
@@ -127,62 +174,67 @@
             <img src="assets/img/unhas/unha1.jpeg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>Transformamos suas unhas em arte!</h3>
+            <h3>Blindagem:</h3>
             <p class="fst-italic">
-              Na Maria Nails, oferecemos uma experiência única de cuidado e estilo. Especializada em técnicas modernas e
-              personalizadas, garantimos que suas unhas reflitam sua beleza e personalidade.
+              A técnica de blindagem é ideal para quem deseja proteger e fortalecer as unhas naturais. Com uma camada
+              especial de proteção, suas unhas ganham mais resistência, durabilidade e um brilho impecável. Perfeita
+              para quem procura um visual elegante e unhas saudáveis, a blindagem ajuda a evitar quebras e descamações,
+              mantendo suas unhas sempre bem cuidadas.
             </p>
             <ul>
-              <li><i class="bi bi-check"></i><span> Unhas de fibra com acabamento perfeito</span></li>
-              <li><i class="bi bi-check"></i> <span>Manicure e pedicure para o seu dia a dia ou ocasiões
-                  especiais</span></li>
-              <li><i class="bi bi-check"></i> <span>Unhas molde F1 para um visual inovador.</span></li>
+              <li><i class="bi bi-check"></i><span> Protege e fortalece as unhas naturais.</span></li>
+              <li><i class="bi bi-check"></i> <span> Evita quebras e descamações.
+                  </span></li>
+              <li><i class="bi bi-check"></i> <span>Proporciona brilho duradouro e elegante.</span></li>
             </ul>
           </div>
         </div><!-- Features Item -->
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/features-2.png" class="img-fluid" alt="">
+            <img src="assets/img/unhas/unha10.jpeg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
-            <h3>Corporis temporibus maiores provident</h3>
+            <h3>Unhas de Fibra:</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore
-              magna aliqua.
+              As unhas de fibra de vidro são uma solução moderna e sofisticada para alongamento. Feitas com materiais de
+              alta qualidade, elas oferecem resistência e um acabamento natural que se adapta a qualquer estilo. Essa
+              técnica é perfeita para quem busca alongar e fortalecer as unhas, garantindo um visual impecável, seja
+              para o dia a dia ou ocasiões especiais.
             </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+            <ul>
+              <li><i class="bi bi-check"></i> <span>Alongamento com acabamento natural.</span></li>
+              <li><i class="bi bi-check"></i><span>Alta resistência e durabilidade.</span></li>
+              <li><i class="bi bi-check"></i> <span>Ideal para qualquer ocasião especial.</span>
+              </li>
+            </ul>
           </div>
         </div><!-- Features Item -->
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/features-3.png" class="img-fluid" alt="">
+            <img src="assets/img/unhas/unha11.jpeg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7" data-aos="fade-up">
-            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut
-              quia voluptatem hic voluptas dolor doloremque.</p>
+            <h3>Unhas Molde F1</h3>
+            <p>A técnica de unhas Molde F1 é uma das mais práticas e inovadoras para quem deseja alongamento com rapidez
+              e perfeição. Com moldes pré-definidos que se ajustam às suas unhas naturais, essa técnica proporciona um
+              acabamento uniforme e elegante. Ideal para quem valoriza praticidade sem abrir mão da beleza, as unhas
+              Molde F1 garantem um visual moderno e sofisticado.</p>
             <ul>
-              <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+              <li><i class="bi bi-check"></i> <span>Alongamento rápido e prático.</span></li>
+              <li><i class="bi bi-check"></i><span>Formatos pré-definidos para perfeição</span>
               </li>
-              <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.
+              <li><i class="bi bi-check"></i> <span>Visual moderno e elegante garantido.</span>
               </li>
             </ul>
           </div>
-        </div><!-- Features Item -->        
+        </div><!-- Features Item -->
 
       </div>
 
     </section><!-- /Features Section -->
-   
+
 
     <!-- Services Section -->
     <section id="services" class="services section">
@@ -207,9 +259,7 @@
               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                 <img src="assets/img/unhas/unha2.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/unhas/unha2.jpeg" title="App 1" data-gallery="portfolio-gallery-app"
+                  <a href="assets/img/unhas/unha2.jpeg" title="Modelo 1" data-gallery="portfolio-gallery-app"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div><!-- End Portfolio Item -->
@@ -217,9 +267,7 @@
               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                 <img src="assets/img/unhas/unah3.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/unhas/unah3.jpeg" title="App 1" data-gallery="portfolio-gallery-app"
+                  <a href="assets/img/unhas/unah3.jpeg" title="Modelo 2" data-gallery="portfolio-gallery-app"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div><!-- End Portfolio Item -->
@@ -227,9 +275,7 @@
               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                 <img src="assets/img/unhas/unah4.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/unhas/unah4.jpeg" title="App 1" data-gallery="portfolio-gallery-app"
+                  <a href="assets/img/unhas/unah4.jpeg" title="Modelo 3" data-gallery="portfolio-gallery-app"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div><!-- End Portfolio Item -->
@@ -237,9 +283,7 @@
               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                 <img src="assets/img/unhas/unha5.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/unhas/unha5.jpeg" title="App 1" data-gallery="portfolio-gallery-app"
+                  <a href="assets/img/unhas/unha5.jpeg" title="Modelo 4" data-gallery="portfolio-gallery-app"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div><!-- End Portfolio Item -->
@@ -247,9 +291,7 @@
               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                 <img src="assets/img/unhas/unha6.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/unhas/unha6.jpeg" title="App 1" data-gallery="portfolio-gallery-app"
+                  <a href="assets/img/unhas/unha6.jpeg" title="Modelo 5" data-gallery="portfolio-gallery-app"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div><!-- End Portfolio Item -->
@@ -257,9 +299,7 @@
               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                 <img src="assets/img/unhas/unha7.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/unhas/unha7.jpeg" title="App 1" data-gallery="portfolio-gallery-app"
+                  <a href="assets/img/unhas/unha7.jpeg" title="Modelo 6" data-gallery="portfolio-gallery-app"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div><!-- End Portfolio Item -->
@@ -267,32 +307,26 @@
               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                 <img src="assets/img/unhas/unha9.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/unhas/unha9.jpeg" title="App 1" data-gallery="portfolio-gallery-app"
+                  <a href="assets/img/unhas/unha9.jpeg" title="Modelo 7" data-gallery="portfolio-gallery-app"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div><!-- End Portfolio Item -->
 
-               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                 <img src="assets/img/unhas/unha8.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/unhas/unha8.jpeg" title="App 1" data-gallery="portfolio-gallery-app"
+                  <a href="assets/img/unhas/unha8.jpeg" title="Modelo 8" data-gallery="portfolio-gallery-app"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div><!-- End Portfolio Item -->
 
               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                <img src="assets/img/unhas/unha9.jpeg" class="img-fluid" alt="">
+                <img src="assets/img/unhas/unha12.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/unhas/unha9.jpeg" title="App 1" data-gallery="portfolio-gallery-app"
+                  <a href="assets/img/unhas/unha12.jpeg" title="Modelo 9" data-gallery="portfolio-gallery-app"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
-              </div><!-- End Portfolio Item -->   
+              </div><!-- End Portfolio Item -->
 
             </div><!-- End Portfolio Container -->
 
@@ -300,8 +334,8 @@
 
         </div>
 
-      </section><!-- /Portfolio Section -->     
-                
+      </section><!-- /Portfolio Section -->
+
       <!-- Contact Section -->
       <section id="contact" class="contact section light-background">
 
@@ -320,8 +354,9 @@
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>Endereço</h3>
-                  <a href="https://www.google.com/maps/search/?api=1&query=Rua+Itanhaém+262+Jardim+Ipiranga" target="_blank"> Rua Itanhaém 262 - jardim Ipiranga</a>
-                 
+                  <a href="https://www.google.com/maps/search/?api=1&query=Rua+Itanhaém+262+Jardim+Ipiranga"
+                    target="_blank"> Rua Itanhaém 262 - jardim Ipiranga</a>
+
                 </div>
               </div><!-- End Info Item -->
 
@@ -329,7 +364,8 @@
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3>Telefone</h3>
-                  <a href="https://wa.me/5599999706574?text=Olá!%20Gostaria%20de%20agendar%20um%20atendimento!" target="_blank">19 999706574</a>
+                  <a href="https://wa.me/5599999706574?text=Olá!%20Gostaria%20de%20agendar%20um%20atendimento!"
+                    target="_blank">19 999706574</a>
 
                 </div>
               </div><!-- End Info Item -->
@@ -362,7 +398,8 @@
                   </div>
 
                   <div class="col-md-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Mensagem" required=""></textarea>
+                    <textarea class="form-control" name="message" rows="6" placeholder="Mensagem"
+                      required=""></textarea>
                   </div>
 
                   <div class="col-md-12 text-center">
@@ -399,43 +436,44 @@
             <p class="mt-3"><strong>Phone:</strong> <span>19 999706574</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href="https://wa.me/5599999706574?text=Olá!%20Gostaria%20de%20agendar%20um%20atendimento!"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://wa.me/5599999706574?text=Olá!%20Gostaria%20de%20agendar%20um%20atendimento!"><i
+                class="bi bi-whatsapp"></i></a>
             <a href="https://www.instagram.com/mariaarita_nails/"><i class="bi bi-instagram"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Links Utéis</h4>
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Serviços</a></li>
             <li><a href="#">Galeria</a></li>
             <li><a href="#">Termos de Serviços</a></li>
-            <li><a href="#">Prolítica de Privacidade</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Nossos Serviços</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Unhas molde F1</a></li>
+            <li><a href="#">Blindagem</a></li>
+            <li><a href="#">Unha de fibra</a></li>
+            <li><a href="#">Manicure Pedicure</a></li>
           </ul>
         </div>
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Maria Nails</strong> <span>Todos os Direitos Reservados</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Maria Nails</strong> <span>Todos os Direitos
+          Reservados</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Desenvolvido Por<a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Desenvolvido Por<a href="#"> </a>
       </div>
     </div>
 
@@ -459,6 +497,13 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+      const menu = document.querySelector('.menu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    });
+  </script>
+  
 
 </body>
 
